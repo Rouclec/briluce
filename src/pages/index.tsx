@@ -2,7 +2,7 @@ import React from "react";
 import landingimage from "@/public/assets/images/macbook-pro.png";
 import mockup from "@/public/assets/images/mockup.png";
 import ipad from "@/public/assets/images/ipad-pro.png";
-import { Navbar } from "../components";
+import Navbar from "../components/Navbar";
 
 import Image from "next/image";
 import {
