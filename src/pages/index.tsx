@@ -184,7 +184,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="relative bg-red-900">
+        <div className="relative">
           <div className="relative flex flex-col lg:flex-row items-center justify-end max-w-[1440px] self-center mx-auto">
             <div className="flex flex-col gap-10 lg:absolute mx-auto left-0 lg:ml-[162px]">
               <p className="w-[460px] font-worksans text-5xl font-extrabold text-dark-1C">
@@ -230,7 +230,7 @@ export default function Home() {
               <div className="two spin-two"></div>
               <div className="three spin-one"></div>
             </div>
-            <h2 className="uppercase text-center font-worksans font-extrabold text-[20px] text-yellow-700 text-4xl">
+            <h2 className="uppercase text-center font-worksans font-extrabold text-[20px] text-primary text-4xl">
               This site is still under construction
             </h2>
           </div>
