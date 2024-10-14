@@ -25,7 +25,7 @@ export default function Home() {
           </div>
           <div className="w-full self-center items-center justify-center max-w-[1440px]">
             <div className="grid gap-20 relative items-center justify-center lg:justify-end">
-              <div className="pt-4 z-10 lg:absolute w-[680px] left-0 pl-12 lg:pl-40">
+              <div className="pt-4 z-10 lg:absolute w-[80vw] lg:w-[680px] left-0 pl-4 md:pl-12 lg:pl-40">
                 <div className="flex flex-col gap-4">
                   <p className="font-worksans font-extrabold text-dark-1C text-[65px] leading-[65px]">
                     We Plan, Design{" "}
@@ -141,7 +141,7 @@ export default function Home() {
                 <Image
                   src={landingimage}
                   alt="landing-image"
-                  className="h-[520px] w-full"
+                  className="h-auto lg:h-[520px] w-full"
                 />
               </div>
             </div>
@@ -153,17 +153,17 @@ export default function Home() {
               <Image src={mockup} alt="mockup" className="h-[520px] w-full" />
             </div>
             <div className="flex flex-col gap-10">
-              <p className="w-[460px] font-worksans text-5xl font-extrabold text-dark-1C">
+              <p className="w-[90vw] text-center lg:w-[460px] font-worksans text-5xl font-extrabold text-dark-1C">
                 Restuarant digital{" "}
                 <span className="text-primary">QR Code Menu</span>
               </p>
-              <p className="w-[460px] font-worksans text-2xl text-grey-36">
+              <p className="w-[90vw] text-center lg:w-[460px] font-worksans text-2xl text-grey-36">
                 This app comes with a backend for restaurants owners, enabling
                 them to manage their menu. The system generates a QR code for
                 the restaurant where the users can scan and have access to their
                 menu.
               </p>
-              <div className="flex w-fit items-center gap-8">
+              <div className="flex flex-col lg:flex-row w-fit items-center justify-center gap-2 lg:gap-8">
                 <div className="button-primary">
                   <p className="button-primary-text">I need this project</p>
                 </div>
@@ -187,17 +187,17 @@ export default function Home() {
         <div className="relative">
           <div className="relative flex flex-col lg:flex-row items-center justify-end max-w-[1440px] self-center mx-auto">
             <div className="flex flex-col gap-10 lg:absolute mx-auto left-0 lg:ml-[162px]">
-              <p className="w-[460px] font-worksans text-5xl font-extrabold text-dark-1C">
+              <p className="w-[90vw] text-center lg:w-[460px] font-worksans text-5xl font-extrabold text-dark-1C">
                 Restuarant digital{" "}
                 <span className="text-primary">QR Code Menu</span>
               </p>
-              <p className="w-[460px] font-worksans text-2xl text-grey-36">
+              <p className="w-[90vw] text-center lg:w-[460px] font-worksans text-2xl text-grey-36">
                 This app comes with a backend for restaurants owners, enabling
                 them to manage their menu. The system generates a QR code for
                 the restaurant where the users can scan and have access to their
                 menu.
               </p>
-              <div className="flex w-fit items-center gap-8">
+              <div className="flex flex-col lg:flex-row w-fit items-center justify-center gap-2 lg:gap-8">
                 <div className="button-primary">
                   <p className="button-primary-text">I need this project</p>
                 </div>

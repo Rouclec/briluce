@@ -11,9 +11,9 @@ const Navbar: FC = () => {
       <Image
         src={logo}
         alt="logo"
-        className="w-28 h-10 cursor-pointer"
+        className="w-28 h-10 cursor-pointer hidden lg:block"
       />
-      <div className="flex items-center gap-9 w-fit">
+      <div className="hidden lg:flex items-center gap-9 w-fit">
         <div className="relative items-center bg-primary bg-opacity-10 flex p-3 rounded-[14px] gap-4 w-[42px] h-10 cursor-pointer">
           <p
             className={`absolute font-worksans uppercase font-bold text-primary text-base right-5`}
@@ -52,9 +52,8 @@ const Navbar: FC = () => {
             Contact
           </p>
         </div>
-        
       </div>
-      <div className="flex gap-2 items-center px-2 h-11 rounded-full bg-grey-bg my-auto">
+      <div className="hidden lg:flex gap-2 items-center px-2 h-11 rounded-full bg-grey-bg my-auto">
         <Image
           src={england}
           width={40}
